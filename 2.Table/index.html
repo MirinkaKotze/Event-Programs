@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font - Poppins - Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Style - Links -->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Event Programs - #2 Table</title>
+  </head>
+  <body class="screen">
+    <!-- 2.Create an html-page with a large table. 
+        When clicking the column heading, it is necessary to sort data of that column. 
+        Note that numerical values should be sorted as numbers, not as strings. -->
+    <table id="table" class="table">
+      <tr>
+        <th id="countryHeading" class="table__heading--item">COUNTRY</th>
+        <th id="cityHeading" class="table__heading--item">CITY</th>
+        <th id="dateVisitedHeading" class="table__heading--item">
+          DATE VISITED
+        </th>
+      </tr>
+      <tr>
+        <td class="table__list--item country">Sweden</td>
+        <td class="table__list--item city">Stockholm</td>
+        <td class="table__list--item">2021</td>
+      </tr>
+      <tr>
+        <td class="table__list--item country">South-Africa</td>
+        <td class="table__list--item city">Cape-Town</td>
+        <td class="table__list--item">2020</td>
+      </tr>
+      <tr>
+        <td class="table__list--item country">Mozambique</td>
+        <td class="table__list--item city">Chichenquele</td>
+        <td class="table__list--item">2019</td>
+      </tr>
+      <tr>
+        <td class="table__list--item country">Romaina</td>
+        <td class="table__list--item city">Bucharest</td>
+        <td class="table__list--item">2021</td>
+      </tr>
+      <tr>
+        <td class="table__list--item country">Bulgaria</td>
+        <td class="table__list--item city">Sophia</td>
+        <td class="table__list--item">2021</td>
+      </tr>
+      <tr>
+        <td class="table__list--item country">Denmark</td>
+        <td class="table__list--item city">Copenhagen</td>
+        <td class="table__list--item">2021</td>
+      </tr>
+      <tr>
+        <td class="table__list--item country">Germany</td>
+        <td class="table__list--item city">Munich</td>
+        <td class="table__list--item">2018</td>
+      </tr>
+      <tr>
+        <td class="table__list--item country">Netherlands</td>
+        <td class="table__list--item city">Amsterdam</td>
+        <td class="table__list--item">2017</td>
+      </tr>
+      <tr>
+        <td class="table__list--item country">France</td>
+        <td class="table__list--item city">Paris</td>
+        <td class="table__list--item">2016</td>
+      </tr>
+      <tr>
+        <td class="table__list--item country">Italy</td>
+        <td class="table__list--item city">Rome</td>
+        <td class="table__list--item">2008</td>
+      </tr>
+    </table>
+    <p class="table__description">Click on the headings to sort the table!</p>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

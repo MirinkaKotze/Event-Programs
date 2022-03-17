@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font - Poppins - Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Style - Links -->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Event Programs - #1 Display Text</title>
+  </head>
+  <body class="screen">
+    <!-- 1. Create an html-page for displaying and editing text. 
+        When opening the page, the text should be displayed with div tag. 
+        When clicking Ctrl+E, textarea appears instead of div and can be edited. 
+        When pressing Ctrl+S, the div with edited text appears instead of textarea. 
+        Don’t forget to turn off default settings for these hotkey combinations. -->
+
+    <div id="beforeName" class="intro">
+      <h1 id="addName" class="intro__heading">HELLO .....!!</h1>
+      <p id="descriptionChange" class="intro__info">
+        Click Ctrl+E to enter your name!
+      </p>
+    </div>
+
+    <div id="enterName" class="name hidden">
+      <textarea
+        class="name__textarea"
+        name="Name"
+        id="enterNameTextarea"
+        cols="50"
+        rows="1"
+        placeholder="Please enter your name..."
+      ></textarea>
+      <p class="name__info">Click Ctrl+S to conitnue!</p>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

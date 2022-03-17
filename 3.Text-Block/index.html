@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font - Poppins - Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Style - Links -->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Event Programs - #3 Text Block</title>
+  </head>
+  <body class="screen">
+    <!-- 3.Create an html-page with a text block in a frame.
+         Execute the possibility to change the size of the block when 
+         holding the mouse cursor in the bottom right corner and pull it further. -->
+
+    <div id="container" class="message__container">
+      <p class="message__description">
+        Hold the mouse cursor on the square and pull to change the size of the
+        block...
+      </p>
+      <div class="message__frame">
+        <div id="dragger" class="message__dragger"></div>
+        <textarea
+          id="frame"
+          class="message__textarea"
+          name="Message"
+          placeholder="Write your message..."
+        ></textarea>
+      </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
